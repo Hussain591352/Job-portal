@@ -1,0 +1,342 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page{
+    display: flex;
+    /* display: none; */
+}
+.imgdiv1{
+    background-color: #FFAF36;
+    height: 685px;
+    width: 50%;
+   
+}
+.img{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.imgdiv1 h1{
+    margin: 20px;
+    justify-self: center;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 40px;
+}
+.imgdiv1 p{
+    justify-self: center;
+    color: whitesmoke;
+    font-size: larger;
+}
+.singupdiv{
+    width: 50%;
+}
+.singupdivcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.singupdivcont h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.singupdivcont p{
+    margin: 0px;
+    font-size: 30px;
+}
+.input{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input input{
+    outline: none;
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: 1px black solid;
+}
+
+label{
+    font-size: 20px;
+    margin-right: 220px;
+}
+
+label[for="confirmpassword"]{
+    font-size: 20px;
+    margin-right: 160px;
+
+}
+label[for="Email"]{
+font-size: 20px;
+    margin-right: 250px;
+}
+#username, 
+#firstname,
+#lastname, 
+#email,
+ #password,
+#confirmpassword{
+    padding: 7px;
+    font-size: medium;
+}
+
+
+#signupbtn{
+    width: 100px;
+    margin-left: 250px;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#signupbtn:hover{
+    transform: scale(1.1);
+}
+.Register{
+    justify-self: center;
+    margin: 10px;
+}  
+
+/* ============================================================
+============================================================= */
+/* ===================LOGIN PAGE
+============================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#loginpage{
+display: none;
+}
+
+#section {
+    display: flex;
+  
+}
+
+.imgdiv {
+    width: 50%;
+    background-color: #FFAF36;
+    height: 560px;
+}
+
+.img1 {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+
+ .joinus{
+    justify-self: center;
+    margin-top: 410px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 50px;
+ }
+
+.imgdiv p {
+    justify-self: center;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 20px;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+    height: 530px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 30px;
+   
+}
+.heading h1{
+     font-weight: 900;
+    font-size: 70px;
+}
+.heading p{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+}
+.input1 input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    outline: none;
+    border: 1px black solid;
+ 
+
+}
+#loginbtn{
+    width: 100px;
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#loginbtn:hover{
+    transform: scale(1.1);
+}
+
+#loginEmail{
+    padding: 15px;
+    font-size: medium;
+}
+#loginpassword{
+    padding: 15px;
+    font-size: medium;
+}
+label[for="email"]{
+    font-size: 30px;
+    margin-right: 320px;
+}
+label[for="password"]{
+    font-size: 30px;
+    margin-right: 280px;
+}
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* ===========================================================================
+============================================================================= */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+#jobpage{
+      background-color: rgb(248, 199, 130);
+      margin-top: -25px;
+      display: none;
+
+
+}
+  #searchbar {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 20px;
+    gap: 20px;
+    height: 30px;
+    border: none;
+    border-radius:3px;
+  }
+
+  
+  #search {
+
+align-items: center;
+ padding: 10px 15px;
+    gap: 20px;
+    height: 30px;
+    border: none;
+    border-radius:30px;
+   width: 500px; 
+  transition:0.1 ease ;
+}
+
+
+
+  .btn {
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+
+  }
+
+  .btn:hover {
+    background-color: rgb(117, 85, 65);
+    color: white;
+  }
+
+
+  .jobdetial1 {
+    margin: 0%;
+    padding: 0%;
+    width: 90%;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: bisque;
+    transition:  0.3s ease;
+
+  }
+
+
+
+
+  #alljobs1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+  }
+
+  .img2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 70px;
+    margin-top: -10px;
+  }
+
+  .jobdetial1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  }
+
+.div p{
+  margin-top: 10px;
+}
+
+
+
+
+
+
